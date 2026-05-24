@@ -1,0 +1,243 @@
+{
+  "page": "investors",
+  "headline": "Investment Analysis: 19 Linden St, Brookline Village",
+  "recommendation": {
+    "overall": "NEGOTIATE",
+    "summary": "Strong site fundamentals undermined by asking price. Viable at $4-4.5M or with density upside via 40B/MBTA overlay. Do not proceed at $5.95M under as-of-right zoning.",
+    "ratings": [
+      { "category": "Location Quality", "rating": "BUY", "score": 9, "note": "Irreplaceable: transit, schools, walkability, scarcity of large lots" },
+      { "category": "Market Demand", "rating": "BUY", "score": 8, "note": "Brookline new construction sells at $950-$1,400/sf; 29% YoY appreciation" },
+      { "category": "Price at Ask ($5.95M)", "rating": "PASS", "score": 3, "note": "At $336/sf of buildable area, margins are negative to break-even" },
+      { "category": "Price at $4-4.5M", "rating": "CONSIDER", "score": 7, "note": "Margins reach 18-22% — workable for experienced developer" },
+      { "category": "Entitlement Risk", "rating": "CONSIDER", "score": 5, "note": "18-month demo delay + community opposition; no LHD veto power" },
+      { "category": "Density Upside (40B)", "rating": "CONSIDER", "score": 6, "note": "Could double units but politically difficult in Brookline; check safe harbor" },
+      { "category": "Regulatory Tailwinds", "rating": "BUY", "score": 7, "note": "MBTA Communities Act forcing upzoning in transit areas — may benefit this parcel" }
+    ]
+  },
+  "zoningParameters": {
+    "district": "M-1.0",
+    "maxFAR": 1.0,
+    "maxGrossBuildableArea": 17698,
+    "maxHeightFt": "35-40 (confirm from Table 5.01)",
+    "maxStories": "3-4",
+    "minLotSize": 5000,
+    "densityFormula": "3,000 sf first unit + 1,000 sf each additional",
+    "maxUnitsbyDensity": 16,
+    "setbacks": {
+      "front": "10-20 ft (confirm)",
+      "side": "7.5-10 ft (confirm)",
+      "rear": "25-30 ft (confirm)"
+    },
+    "openSpacePerUnit": "Confirm from Table 5.01",
+    "parkingRequirement": "Confirm — typically 1.5-2 spaces/unit in Brookline M districts"
+  },
+  "financialScenarios": [
+    {
+      "name": "Scenario A: As-of-Right (14 units at $5.95M)",
+      "recommendation": "PASS",
+      "landCost": 5950000,
+      "units": 14,
+      "totalGFA": 17698,
+      "sellableSF": 15000,
+      "hardCostsPerSF": 500,
+      "hardCosts": 8850000,
+      "softCostsPct": 0.22,
+      "softCosts": 1947000,
+      "totalDevelopmentCost": 16747000,
+      "avgSalePricePerSF": 1100,
+      "grossRevenue": 16500000,
+      "netProfit": -247000,
+      "margin": "-1.5%",
+      "verdict": "Does not pencil. Negative to break-even margin."
+    },
+    {
+      "name": "Scenario B: As-of-Right (14 units at $4.5M acquisition)",
+      "recommendation": "CONSIDER",
+      "landCost": 4500000,
+      "units": 14,
+      "totalGFA": 17698,
+      "sellableSF": 15000,
+      "hardCostsPerSF": 500,
+      "hardCosts": 8850000,
+      "softCostsPct": 0.22,
+      "softCosts": 1947000,
+      "totalDevelopmentCost": 15297000,
+      "avgSalePricePerSF": 1100,
+      "grossRevenue": 16500000,
+      "netProfit": 1203000,
+      "margin": "7.9%",
+      "verdict": "Marginal. Acceptable if sale prices hit $1,200/sf."
+    },
+    {
+      "name": "Scenario C: Luxury Adaptive Reuse (14 units at $4.5M)",
+      "recommendation": "CONSIDER",
+      "landCost": 4500000,
+      "units": 14,
+      "totalGFA": 17698,
+      "sellableSF": 14500,
+      "hardCostsPerSF": 575,
+      "hardCosts": 10176500,
+      "softCostsPct": 0.25,
+      "softCosts": 2544125,
+      "totalDevelopmentCost": 17220625,
+      "avgSalePricePerSF": 1300,
+      "grossRevenue": 18850000,
+      "netProfit": 1629375,
+      "margin": "9.5%",
+      "verdict": "Workable if premium pricing holds. Historic character adds marketing value but raises construction costs."
+    },
+    {
+      "name": "Scenario D: Chapter 40B (28 units at $5.95M)",
+      "recommendation": "CONSIDER",
+      "landCost": 5950000,
+      "units": 28,
+      "affordableUnits": 7,
+      "marketRateUnits": 21,
+      "totalGFA": 30000,
+      "sellableSF": 25500,
+      "hardCostsPerSF": 500,
+      "hardCosts": 15000000,
+      "softCostsPct": 0.22,
+      "softCosts": 3300000,
+      "totalDevelopmentCost": 24250000,
+      "avgSalePricePerSF": 1100,
+      "affordableSalePricePerSF": 550,
+      "grossRevenue": 27225000,
+      "netProfit": 2975000,
+      "margin": "12.3%",
+      "verdict": "Best margin scenario. Requires comprehensive permit, political navigation, and 2+ year entitlement timeline. Verify Brookline 40B safe harbor status."
+    },
+    {
+      "name": "Scenario E: 40B (28 units at $4.5M acquisition)",
+      "recommendation": "BUY",
+      "landCost": 4500000,
+      "units": 28,
+      "affordableUnits": 7,
+      "marketRateUnits": 21,
+      "totalGFA": 30000,
+      "sellableSF": 25500,
+      "hardCostsPerSF": 500,
+      "hardCosts": 15000000,
+      "softCostsPct": 0.22,
+      "softCosts": 3300000,
+      "totalDevelopmentCost": 22800000,
+      "avgSalePricePerSF": 1100,
+      "affordableSalePricePerSF": 550,
+      "grossRevenue": 27225000,
+      "netProfit": 4425000,
+      "margin": "19.4%",
+      "verdict": "Strong deal. Meets typical developer return thresholds. Requires 40B permit and negotiated acquisition."
+    }
+  ],
+  "carryingCosts": {
+    "note": "18-month demolition delay adds significant carrying costs before construction can begin",
+    "estimatedAnnualCarry": 475000,
+    "assumptions": "8% interest on $5.95M acquisition loan",
+    "delayCarryCost": 712500,
+    "impact": "Adds ~$712K to total project cost during 18-month demo delay period alone"
+  },
+  "riskMatrix": [
+    {
+      "risk": "Demolition Delay (18 months)",
+      "probability": "Certain",
+      "impact": "High",
+      "mitigation": "Budget $700K+ in carry costs. Use delay period for design, permitting, community engagement.",
+      "category": "Regulatory"
+    },
+    {
+      "risk": "Community Opposition",
+      "probability": "Very High",
+      "impact": "High",
+      "mitigation": "Adaptive reuse strategy reduces opposition. Early community engagement. Preservation Commission consultation.",
+      "category": "Political"
+    },
+    {
+      "risk": "Construction Cost Overruns",
+      "probability": "Medium",
+      "impact": "High",
+      "mitigation": "Historic renovation adds 15-25% cost uncertainty. New construction behind existing structure is more predictable.",
+      "category": "Financial"
+    },
+    {
+      "risk": "Market Downturn During 3-4 Year Project",
+      "probability": "Medium",
+      "impact": "High",
+      "mitigation": "Brookline has historically resilient pricing. Pre-sales can de-risk. Proximity to medical employment centers provides demand floor.",
+      "category": "Market"
+    },
+    {
+      "risk": "40B Safe Harbor Blocks Comprehensive Permit",
+      "probability": "Medium",
+      "impact": "High",
+      "mitigation": "Verify current safe harbor status. If blocked, pursue as-of-right with price negotiation or MBTA overlay density.",
+      "category": "Regulatory"
+    },
+    {
+      "risk": "Parking Requirements Reduce Buildable Units",
+      "probability": "Medium",
+      "impact": "Medium",
+      "mitigation": "Confirm parking ratio. Underground parking adds $50-75K/space. Transit proximity may support reduced parking special permit.",
+      "category": "Regulatory"
+    },
+    {
+      "risk": "Environmental Issues (Lead, Asbestos, Soil)",
+      "probability": "Medium",
+      "impact": "Medium",
+      "mitigation": "Phase I/II environmental assessment during due diligence. 1843 structure likely contains lead paint and possibly asbestos.",
+      "category": "Environmental"
+    },
+    {
+      "risk": "Interest Rate Increase During Hold Period",
+      "probability": "Medium",
+      "impact": "Medium",
+      "mitigation": "Lock construction financing early. Minimize pre-construction hold period.",
+      "category": "Financial"
+    }
+  ],
+  "opportunities": [
+    {
+      "opportunity": "MBTA Communities Act Upzoning",
+      "probability": "Medium-High",
+      "impact": "Very High",
+      "detail": "Brookline is a rapid transit community required to zone for 6,990 multifamily units. If this parcel falls within the Section 3A overlay, density may increase beyond M-1.0 limits.",
+      "category": "Regulatory"
+    },
+    {
+      "opportunity": "Historic Tax Credits",
+      "probability": "High",
+      "impact": "Medium",
+      "detail": "Federal Historic Tax Credit (20% of qualified rehabilitation costs) available for income-producing properties on the National Register. Massachusetts also offers a state HTC.",
+      "category": "Financial"
+    },
+    {
+      "opportunity": "Scarcity Premium",
+      "probability": "High",
+      "impact": "Medium",
+      "detail": "Large lots in Brookline Village are extremely rare. New construction with historic character commands top-of-market pricing.",
+      "category": "Market"
+    },
+    {
+      "opportunity": "Medical / Institutional Demand",
+      "probability": "High",
+      "impact": "Medium",
+      "detail": "Proximity to Longwood Medical Area (Harvard Medical, Dana-Farber, Brigham & Women's, Boston Children's) creates deep, recession-resistant buyer pool.",
+      "category": "Market"
+    }
+  ],
+  "dueDiligenceChecklist": [
+    { "item": "Confirm exact height limit (35 vs 40 ft) from Table 5.01", "status": "pending", "priority": "high" },
+    { "item": "Confirm exact setbacks from Table 5.01", "status": "pending", "priority": "high" },
+    { "item": "Confirm parking requirements for M-1.0", "status": "pending", "priority": "high" },
+    { "item": "Check if parcel is within MBTA Communities Act Section 3A overlay", "status": "pending", "priority": "high" },
+    { "item": "Verify Brookline Chapter 40B safe harbor status", "status": "pending", "priority": "high" },
+    { "item": "Order title search", "status": "pending", "priority": "high" },
+    { "item": "Phase I environmental site assessment", "status": "pending", "priority": "high" },
+    { "item": "Survey / confirm lot geometry and actual buildable envelope", "status": "pending", "priority": "high" },
+    { "item": "Meet with Brookline Planning Department (pre-application conference)", "status": "pending", "priority": "medium" },
+    { "item": "Consult Brookline Preservation Commission on adaptive reuse approach", "status": "pending", "priority": "medium" },
+    { "item": "Review comparable recent Brookline Board of Appeals decisions in M districts", "status": "pending", "priority": "medium" },
+    { "item": "Confirm open space and usable open space per unit requirements", "status": "pending", "priority": "medium" },
+    { "item": "Research deed restrictions or easements on parcel", "status": "pending", "priority": "medium" },
+    { "item": "Investigate utility capacity (sewer, water, electrical) for multifamily", "status": "pending", "priority": "low" }
+  ]
+}

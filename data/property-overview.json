@@ -1,0 +1,52 @@
+{
+  "property": {
+    "address": "19 Linden Street",
+    "neighborhood": "Brookline Village",
+    "city": "Brookline",
+    "state": "MA",
+    "zip": "02445",
+    "lotSizeSqft": 17698,
+    "lotSizeAcres": 0.41,
+    "zoning": "M-1.0",
+    "zoningDescription": "Multi-family Residence, FAR 1.0",
+    "askingPrice": 5950000,
+    "pricePerSqftLot": 336,
+    "currentStructure": {
+      "style": "Greek Revival",
+      "yearBuilt": 1843,
+      "architect": "Unknown",
+      "builtFor": "John Turner, Boston dry goods merchant",
+      "notableFeatures": [
+        "Greek Doric columns on dual porches",
+        "Flush-board siding on gable end",
+        "South-facing front elevation",
+        "Best-preserved survivor of 1843 Lindens subdivision"
+      ]
+    },
+    "historicStatus": {
+      "nationalRegister": true,
+      "dateListedNR": "1985-10-17",
+      "nrReferenceNumber": "85003284",
+      "localHistoricDistrict": false,
+      "lhdProposed": false
+    },
+    "transit": {
+      "mbtaStation": "Brookline Village",
+      "line": "Green Line D Branch",
+      "walkingDistanceMin": 5,
+      "dailyBoardings": 3230,
+      "busRoutes": ["39", "66"],
+      "destinations": ["Longwood Medical Area", "Kenmore", "Park Street", "Downtown Boston"]
+    }
+  },
+  "neighborhood": {
+    "description": "Historic heart of Brookline — home to Town Hall, main library, and a walkable mix of civic, retail, and residential uses",
+    "character": "Established, affluent, transit-rich",
+    "walkScore": 87,
+    "transitScore": 78,
+    "medianHomePrice": 1150000,
+    "medianResalePricePerSqft": 830,
+    "yearOverYearAppreciation": "29.3%",
+    "schoolDistrict": "Brookline Public Schools (highly rated)"
+  }
+}

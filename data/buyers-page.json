@@ -1,0 +1,67 @@
+{
+  "page": "buyers",
+  "headline": "Live Where Brookline Began",
+  "subheadline": "A rare residential collection in the historic heart of Brookline Village",
+  "heroStats": [
+    { "label": "Year Established", "value": "1843", "detail": "One of Brookline's earliest planned neighborhoods" },
+    { "label": "Green Line Access", "value": "5 min walk", "detail": "Brookline Village station, D Branch" },
+    { "label": "Lot Size", "value": "17,698 sq ft", "detail": "Among the largest private lots in Brookline Village" },
+    { "label": "Historic Landmark", "value": "National Register", "detail": "Recognized for architectural and historical significance" }
+  ],
+  "valueProposition": {
+    "title": "Where History Meets Modern Living",
+    "points": [
+      {
+        "heading": "Irreplaceable Location",
+        "description": "Steps from Brookline Village's shops, restaurants, and the MBTA Green Line. Direct access to Longwood Medical Area, Kenmore, and downtown Boston."
+      },
+      {
+        "heading": "Rich Heritage",
+        "description": "Built in 1843 as part of Brookline's first garden suburb, 19 Linden Street is the best-preserved example of the original Greek Revival homes designed for Boston's merchant class."
+      },
+      {
+        "heading": "Rare Scale",
+        "description": "At nearly half an acre, this is one of the few remaining large lots in Brookline Village — offering space, privacy, and light that smaller urban parcels cannot match."
+      },
+      {
+        "heading": "Top-Tier Schools & Community",
+        "description": "Brookline Public Schools consistently rank among the best in Massachusetts. The neighborhood offers a walkable, community-oriented lifestyle minutes from Boston."
+      }
+    ]
+  },
+  "developmentVision": {
+    "title": "The Vision",
+    "scenarios": [
+      {
+        "name": "Heritage Collection",
+        "description": "12-14 luxury residences blending preserved Greek Revival character with contemporary design. The restored 1843 landmark anchors a curated residential enclave.",
+        "unitRange": "12-14 units",
+        "avgSize": "1,000-1,400 sq ft",
+        "estimatedPriceRange": "$950K - $1.8M",
+        "targetBuyer": "Professionals, medical faculty, downsizers seeking character and convenience"
+      },
+      {
+        "name": "Boutique Adaptive Reuse",
+        "description": "The original Greek Revival house transformed into 2-3 signature residences, with a new 10-12 unit building set behind — respecting the streetscape while maximizing the deep lot.",
+        "unitRange": "12-15 units",
+        "avgSize": "1,100-1,600 sq ft",
+        "estimatedPriceRange": "$1.1M - $2.2M",
+        "targetBuyer": "Design-conscious buyers seeking one-of-a-kind homes with historic provenance"
+      }
+    ]
+  },
+  "locationHighlights": [
+    { "name": "Brookline Village MBTA", "type": "Transit", "distance": "0.2 mi" },
+    { "name": "Longwood Medical Area", "type": "Employment", "distance": "1.2 mi" },
+    { "name": "Coolidge Corner", "type": "Dining & Shopping", "distance": "1.0 mi" },
+    { "name": "Boston Common", "type": "Downtown Boston", "distance": "3.0 mi" },
+    { "name": "Brookline Town Hall", "type": "Civic", "distance": "0.1 mi" },
+    { "name": "Larz Anderson Park", "type": "Recreation", "distance": "1.5 mi" }
+  ],
+  "comparableNewConstruction": [
+    { "address": "58 Kent St, Brookline", "year": 2025, "size": "1,217 sf", "beds": 2, "baths": 2, "price": 1699900, "pricePerSqft": 1396 },
+    { "address": "45 Bartlett Crescent, Brookline", "year": 2026, "size": "1,595 sf", "beds": 3, "baths": 2, "price": 1900000, "pricePerSqft": 1191 },
+    { "address": "57-59 Highland Rd, Brookline", "year": 2025, "size": "1,835 sf", "beds": 4, "baths": 3, "price": 1750000, "pricePerSqft": 953 },
+    { "address": "Solaire Fisher Hill, Brookline", "year": 2025, "size": "3,000-4,000 sf", "beds": 4, "baths": 4, "price": 4000000, "pricePerSqft": 1167 }
+  ]
+}
