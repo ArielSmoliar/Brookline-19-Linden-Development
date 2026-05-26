@@ -1,116 +1,141 @@
 {
   "page": "research-takeaways",
+  "version": "2.0",
+  "lastUpdated": "2026-05-26",
   "headline": "Key Research Findings",
-  "subheadline": "What we know, what we need to verify, and what it means",
-  "toplineTakeaway": "19 Linden St is an exceptional site held back by an aggressive asking price. The investment thesis depends entirely on acquisition price and entitlement strategy.",
+  "subheadline": "By-law deep dive, regulatory constraints, and what they mean for the deal",
+  "toplineTakeaway": "The deal works at $5.5M under both development scenarios — but the pro forma must account for Brookline's inclusionary zoning (15% affordable units), parking requirements, and setback constraints. These reduce upside but don't kill the deal. Meeting with Building Inspector Ted Murray is the critical next step.",
   "keyFindings": [
     {
       "number": 1,
-      "title": "The Location Is Genuinely Rare",
-      "detail": "A 17,698 sq ft lot in Brookline Village with Green Line access is nearly impossible to replicate. Large parcels in established Brookline neighborhoods almost never come to market. This scarcity is real and defensible.",
-      "implication": "Supports premium pricing for finished product",
-      "category": "positive"
+      "title": "Section 4.08: Inclusionary Zoning Changes Every Scenario",
+      "detail": "Brookline requires 15% of units to be Affordable at 80% AMI (for-sale) for any project with 4+ units. This was missing from both Amr's and the original model. For 14 units: 2 affordable units, ~$2.2M revenue reduction. For 5 units: 1 affordable unit or payment-in-lieu, ~$500K-3.2M reduction depending on approach. A payment-in-lieu option exists but the fee amount needs confirmation.",
+      "implication": "Every pro forma must include this. Payment-in-lieu may be more favorable than on-site units, especially for Beatka's large-unit plan.",
+      "category": "critical",
+      "source": "Brookline Zoning By-Law Section 4.08; Brookline Housing Division"
     },
     {
       "number": 2,
-      "title": "Historic Status Is a Speed Bump, Not a Wall",
-      "detail": "The National Register alone imposes zero restrictions on private development. The property is NOT in a Local Historic District. The binding constraint is Brookline's 18-month demolition delay — significant but temporary. After 18 months, the permit must be issued.",
-      "implication": "Budget for delay costs but don't overweight historic risk",
-      "category": "positive"
+      "title": "Side Setback Formula Is More Restrictive Than Assumed",
+      "detail": "Emily Noel (Building Inspector) confirmed the side setback = (Building Length / 10) + 10 feet. For an 80-ft building, that's 18 ft per side (36 ft total), vs. the 7.5-10 ft we originally estimated. This significantly constrains the buildable footprint, especially for Scenario A's 14-unit plan which maxes out FAR.",
+      "implication": "Need lot survey (width x depth) before an architect can confirm whether 14 units physically fit. This is a blocking question for Scenario A.",
+      "category": "critical",
+      "source": "Emily Noel, Building Inspector; Brookline Zoning Table 5.01"
     },
     {
       "number": 3,
-      "title": "As-of-Right Density Cannot Support a $5.95M Acquisition",
-      "detail": "M-1.0 zoning yields ~14 sellable units on 17,698 sf of GFA. At Boston-area construction costs ($450-550/sf) and Brookline sale prices ($1,000-1,200/sf), the all-in development cost at $5.95M land exceeds or matches achievable revenue.",
-      "implication": "Must either negotiate price to $4-4.5M or pursue density upside",
-      "category": "negative"
+      "title": "Transit Overlay Cuts Parking in Half",
+      "detail": "A 2021 zoning change reduced parking minimums within 0.5 miles of rapid transit to 1.0 space per 1BR+ unit (down from 1.4-2.0). 19 Linden is ~5 min walk from Brookline Village Green Line. This likely qualifies, reducing Scenario A from ~21-28 spaces to ~14 spaces, saving $500K-1M in underground garage costs.",
+      "implication": "Major cost saving. Confirm Transit Overlay boundary includes the parcel.",
+      "category": "positive",
+      "source": "Brookline Zoning By-Law Section 6.02; 2021 Transit Overlay amendment"
     },
     {
       "number": 4,
-      "title": "Chapter 40B Could Transform the Economics",
-      "detail": "A comprehensive permit could allow 25-30 units, nearly doubling the as-of-right density. This dramatically improves per-unit land cost and project margins. However, Brookline is hostile to 40B projects and may have safe harbor protection.",
-      "implication": "Verify safe harbor status immediately — this is the single highest-impact variable",
-      "category": "opportunity"
+      "title": "Section 5.21 Could Unlock FAR/Height Bonus",
+      "detail": "Public benefit incentive allows exceptions to FAR and height limits. Historic preservation of the Greek Revival house could qualify. If activated, this could allow additional sellable sqft above the 17,698 FAR cap — particularly valuable for Scenario A which is at max FAR (actually 162 sqft over).",
+      "implication": "Potential upside. Discuss with Ted Murray whether this applies.",
+      "category": "opportunity",
+      "source": "Brookline Zoning By-Law Section 5.21"
     },
     {
       "number": 5,
-      "title": "MBTA Communities Act Is a Tailwind",
-      "detail": "Brookline must zone for 6,990 multifamily units under the MBTA Communities Act. Transit-adjacent parcels like this one may benefit from overlay districts with more generous density. Compliance zoning was adopted in Fall 2023 — check if this parcel is covered.",
-      "implication": "Could unlock density without the political cost of 40B",
-      "category": "opportunity"
+      "title": "Keeping the House Avoids the 18-Month Demo Delay",
+      "detail": "Both Amr and Beatka's plans preserve the existing house. The building inspector confirmed the 18-month delay 'may be taken into effect' — but it only applies to demolition. Adaptive reuse = no demolition = no delay. This saves ~$660K in carrying costs and 18 months of timeline.",
+      "implication": "The strongest argument for adaptive reuse over full demolition, beyond community goodwill",
+      "category": "positive",
+      "source": "Emily Noel; Brookline Demolition Delay By-Law Article 5.3"
     },
     {
       "number": 6,
-      "title": "New Construction Commands Strong Pricing",
-      "detail": "Recent Brookline new construction sells at $950-$1,400/sf. Median resale at $830/sf with 29% YoY appreciation. The market supports premium product — especially near transit and medical institutions.",
-      "implication": "Revenue assumptions of $1,100-$1,200/sf are conservative and defensible",
-      "category": "positive"
+      "title": "Density Formula Allows Up to 15 Units",
+      "detail": "Confirmed: 3,000 sqft lot area for first unit + 1,000 sqft each additional. On 17,698 sqft lot: max 15 units (1 + 14 additional). Amr's 14-unit plan is 1 under the max. Beatka's 5-unit plan uses only a third of the allowed density.",
+      "implication": "Amr is near the density ceiling; Beatka has significant headroom for future phase or if regulations change",
+      "category": "neutral",
+      "source": "Brookline Zoning By-Law; Amr's analysis confirmed by Building Inspector guidance"
     },
     {
       "number": 7,
-      "title": "Carrying Costs During Delay Are Material",
-      "detail": "18 months of carry on a $5.95M acquisition at 8% interest = ~$712K before construction even begins. This dead cost further erodes already-thin margins in the as-of-right scenario.",
-      "implication": "Factor into all pro formas — this is not a rounding error",
-      "category": "negative"
+      "title": "FAR Overage Must Be Fixed (Scenario A)",
+      "detail": "Amr's model totals 17,860 sqft (16,200 living + 1,660 common) on a 17,698 sqft lot. That's 162 sqft over the FAR 1.0 limit. Small overage but it's a hard legal cap — must be trimmed.",
+      "implication": "Not a deal-breaker. Reduce common space from 1,660 to ~1,500 sqft or trim unit sizes slightly.",
+      "category": "negative",
+      "source": "Amr's spreadsheet vs. FAR calculation"
     },
     {
       "number": 8,
-      "title": "Adaptive Reuse Could Be the Smartest Play",
-      "detail": "Preserving the 1843 Greek Revival and building new construction behind it (a) reduces community opposition, (b) may qualify for federal and state Historic Tax Credits (20%+), (c) creates a differentiated luxury product, and (d) shortens or avoids the demolition delay.",
-      "implication": "Explore this strategy in detail — it may align financial and political incentives",
-      "category": "opportunity"
+      "title": "Two Credible Scenarios Converge on Key Decisions",
+      "detail": "Amr (14 units, $23M) and Beatka (5-6 units, $20M) disagree on density but agree on three critical points: (1) keep the existing house, (2) underground garage, (3) avoid Chapter 40B. This convergence from independent sources is a strong signal.",
+      "implication": "The adaptive reuse + new construction approach is validated from both financial and market perspectives",
+      "category": "positive",
+      "source": "Amr's financial model; Beatka Zakrzewski (agent)"
     },
     {
       "number": 9,
-      "title": "The Seller Is Pricing in the Upside",
-      "detail": "At $336/sf of buildable area, the asking price already captures most of the development value. The seller (Scott) appears aware of the lot's potential. This leaves insufficient margin for the developer who takes on 3+ years of execution risk.",
-      "implication": "Any offer should be anchored to as-of-right economics, not speculative density",
-      "category": "negative"
+      "title": "Small Units Command a Significant Premium",
+      "detail": "Amr prices 1,000 sqft units at $1,500/sqft while existing house units price at $1,200/sqft. Comp support: 58 Kent St (1,217 sqft) sold at $1,396/sqft. Solaire Fisher Hill (3,000-4,000 sqft) at $1,000-1,333/sqft. The $/sqft premium for smaller units is real and documented.",
+      "implication": "Scenario A's revenue advantage is real — but $1,500/sqft is at the top of market. $1,200-1,350 is the defensible range.",
+      "category": "positive",
+      "source": "Comparable sales; Amr's model"
     },
     {
       "number": 10,
-      "title": "The Buyer Pool for Finished Product Is Deep",
-      "detail": "Longwood Medical Area employs 50,000+ people (Harvard Medical, Dana-Farber, Brigham & Women's, Children's Hospital). Many are high-income professionals seeking walkable, transit-accessible housing. Brookline schools add family demand.",
-      "implication": "Demand risk is low — the execution risk is in entitlement and construction, not sales",
-      "category": "positive"
+      "title": "Building Inspector Has Laid Out a Roadmap",
+      "detail": "Emily Noel identified the exact by-law sections to review (4.08, 5.21, 6) and connected us with Ted Murray, the area inspector. She recommended meeting with him and the preservation department before design. This is a clear, actionable regulatory pathway.",
+      "implication": "The regulatory path is navigable. Meeting with Ted Murray should resolve most open questions in a single session.",
+      "category": "positive",
+      "source": "Emily Noel, Building Inspector (emurray@brooklinema.gov for Ted Murray)"
+    },
+    {
+      "number": 11,
+      "title": "Rear Setback (30 ft) and Height (40 ft) Are Confirmed",
+      "detail": "M-1.0 requires 30 ft rear yard setback and allows 40 ft max height (4 stories). Combined with front setback (10-20 ft), you lose 40-50 ft of lot depth. 4 stories is the right design target to keep footprint manageable at ~4,425 sqft per floor.",
+      "implication": "Architect should design for 4 stories to work within setback constraints",
+      "category": "neutral",
+      "source": "Brookline Zoning By-Law Table 5.01"
+    },
+    {
+      "number": 12,
+      "title": "The Existing House Split Needs Vetting",
+      "detail": "Amr's model assumes the Greek Revival house becomes 2 units (3,000 + 1,200 sqft). But where does the second unit come from? If interior conversion requires significant exterior changes, it could trigger the 'systematic removal of character-defining elements' clause and activate the demolition delay even while preserving the building.",
+      "implication": "Confirm with preservation department. If the split is infeasible, the house stays as 1 unit (reducing total unit count to 13 and adjusting revenue by ~$1.4M).",
+      "category": "negative",
+      "source": "Brookline Demolition Delay By-Law; analysis of Amr's unit mix"
     }
   ],
   "decisionFramework": {
-    "title": "Decision Matrix",
+    "title": "Updated Decision Matrix (v2)",
     "scenarios": [
       {
-        "condition": "Seller won't negotiate below $5.5M AND 40B safe harbor is active",
-        "recommendation": "PASS",
-        "reasoning": "Insufficient margin at as-of-right density with no path to density upside"
+        "condition": "Scenario A (14 units) at $5.5M, new units at $1,500/sqft, with IZ",
+        "recommendation": "PROCEED",
+        "reasoning": "25.4% margin, $5.3M profit. Strong returns even after IZ adjustment. Requires $1,500/sqft to hold and buildable envelope to accommodate 14 units."
       },
       {
-        "condition": "Seller negotiates to $4-4.5M AND as-of-right only",
+        "condition": "Scenario A (14 units) at $5.5M, new units at $1,200/sqft, with IZ",
         "recommendation": "CONSIDER",
-        "reasoning": "Margins of 8-12% achievable. Thin but workable for experienced developer. Adaptive reuse strategy preferred."
+        "reasoning": "12.9% margin, $2.3M profit. Acceptable but thin for 4-year execution risk. Works if you can control costs tightly."
       },
       {
-        "condition": "Seller negotiates to $4-4.5M AND 40B or MBTA overlay available",
-        "recommendation": "BUY",
-        "reasoning": "19%+ margins with density upside. Strong location, deep buyer pool, manageable historic constraints."
+        "condition": "Scenario B (5 units) at $5.5M, blended $1,200/sqft, payment-in-lieu IZ",
+        "recommendation": "PROCEED",
+        "reasoning": "~25% margin, ~$5M profit. Lower risk, simpler execution, faster timeline. Best risk-adjusted path if payment-in-lieu is available."
       },
       {
-        "condition": "Asking price ($5.95M) AND 40B comprehensive permit achievable (28+ units)",
+        "condition": "Scenario B (5 units) at $5.5M, blended $1,200/sqft, on-site affordable unit",
+        "recommendation": "CONSIDER",
+        "reasoning": "14% margin, $2.6M profit. Still profitable but the single affordable unit loses more revenue on large-unit plans. Negotiate hard on payment-in-lieu."
+      },
+      {
+        "condition": "Either scenario at $5.95M asking price",
         "recommendation": "NEGOTIATE",
-        "reasoning": "12% margin at ask price with 40B. Negotiate to $5-5.25M for 15%+ returns."
+        "reasoning": "Both scenarios still work at asking price if pricing holds — but every dollar saved on acquisition flows directly to margin. $5.5M is the target."
       },
       {
-        "condition": "Any price AND plan to hold for MBTA Act upzoning (2-5 year horizon)",
-        "recommendation": "CONSIDER",
-        "reasoning": "Speculative land play. Regulatory tailwinds are real but timeline uncertain."
+        "condition": "Setback analysis shows 14 units don't physically fit",
+        "recommendation": "DEFAULT TO SCENARIO B",
+        "reasoning": "If the lot geometry can't support 14 units, Beatka's 5-6 unit plan becomes the clear path. Still produces strong returns."
       }
     ]
-  },
-  "immediateNextSteps": [
-    "Verify Brookline's Chapter 40B safe harbor status — this is the single most important variable",
-    "Check MBTA Communities Act Section 3A overlay maps for parcel coverage",
-    "Pull exact dimensional requirements from Brookline Zoning Table 5.01",
-    "Meet with Scott — express interest but anchor discussions at $4-4.5M based on as-of-right economics",
-    "Consult Brookline Planning Department for pre-application guidance",
-    "Engage a Brookline-experienced zoning attorney to assess entitlement pathways"
-  ]
+  }
 }

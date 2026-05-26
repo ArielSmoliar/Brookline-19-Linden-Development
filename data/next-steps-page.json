@@ -1,0 +1,294 @@
+{
+  "page": "next-steps",
+  "version": "1.0",
+  "lastUpdated": "2026-05-26",
+  "headline": "Next Steps & Action Items",
+  "subheadline": "What needs to happen before committing capital — prioritized and assigned",
+  "phaseOverview": {
+    "currentPhase": "Due Diligence & Regulatory Confirmation",
+    "description": "We have two viable development scenarios and a strong understanding of the by-law landscape. The next phase is confirming the open regulatory questions, firming up the pro forma, and making the Scenario A vs. B decision.",
+    "estimatedDuration": "4-6 weeks",
+    "phases": [
+      { "name": "Phase 1: Regulatory Confirmation", "status": "NOW", "duration": "2-3 weeks", "description": "Resolve open by-law questions with Building Inspector and Planning Dept" },
+      { "name": "Phase 2: Design & Feasibility", "status": "NEXT", "duration": "4-6 weeks", "description": "Engage architect to test buildable envelope, refine unit mix, develop concept design" },
+      { "name": "Phase 3: Financial Commitment", "status": "FUTURE", "duration": "2-4 weeks", "description": "Firm pro forma, secure financing LOI, present to investors" },
+      { "name": "Phase 4: Acquisition & Entitlement", "status": "FUTURE", "duration": "3-6 months", "description": "Close acquisition, file permits, begin community engagement" }
+    ]
+  },
+  "immediateActions": {
+    "title": "Immediate Priorities (This Week)",
+    "items": [
+      {
+        "id": "A1",
+        "action": "Schedule meeting with Ted Murray (Building Inspector)",
+        "contact": "emurray@brooklinema.gov",
+        "purpose": "Walk through Sections 4.08, 5.21, 6, and Table 5.01 in person. Confirm side setback formula, IZ rounding rules, Transit Overlay boundary, and Section 5.21 public benefit applicability.",
+        "owner": "Ariel",
+        "priority": "CRITICAL",
+        "status": "pending",
+        "blocksItems": ["A3", "A4", "A5", "B1"],
+        "notes": "Emily Noel recommended this meeting and will forward your email to Ted. Plan for in-person meeting after reviewing the referenced by-law sections."
+      },
+      {
+        "id": "A2",
+        "action": "Order lot survey (width x depth dimensions)",
+        "purpose": "Cannot model the buildable envelope without knowing lot width. The side setback formula (Length/10 + 10) makes this critical for determining whether 14 units physically fit.",
+        "owner": "Ariel",
+        "priority": "CRITICAL",
+        "status": "pending",
+        "blocksItems": ["B1", "B2"],
+        "notes": "A basic boundary survey is sufficient for this stage. Full ALTA survey can wait until closer to acquisition."
+      },
+      {
+        "id": "A3",
+        "action": "Confirm Section 4.08 inclusionary zoning details",
+        "purpose": "Determine: (1) rounding rules for fractional units (2.1 units = 2 or 3?), (2) current payment-in-lieu fee amount, (3) whether affordable unit bedrooms must match proportional bedroom count, (4) current 80% AMI sale price for Brookline.",
+        "owner": "Ariel (at Ted Murray meeting)",
+        "priority": "HIGH",
+        "status": "pending",
+        "blocksItems": ["C1"],
+        "notes": "The payment-in-lieu fee may be more favorable than on-site affordable units, especially for Beatka's plan. The $25,000 'rebate for A9' in Amr's spreadsheet may relate to this."
+      },
+      {
+        "id": "A4",
+        "action": "Confirm Transit Overlay District boundary",
+        "purpose": "Verify 19 Linden St is within the Transit Overlay Parking District (0.5 miles from Brookline Village station). If yes, parking drops from 1.4-2.0 to 1.0 space per unit.",
+        "owner": "Ariel (at Ted Murray meeting)",
+        "priority": "HIGH",
+        "status": "pending",
+        "blocksItems": ["C1"],
+        "notes": "Almost certainly qualifies given proximity, but need official confirmation."
+      },
+      {
+        "id": "A5",
+        "action": "Contact Preservation Department about demo delay applicability",
+        "purpose": "Confirm: (1) does adaptive reuse (keeping the house) avoid the 18-month delay entirely?, (2) does splitting the house into 2 units (Amr's plan) trigger the 'systematic removal of character-defining elements' clause?, (3) what level of interior renovation is allowed without triggering the delay?",
+        "owner": "Ariel",
+        "priority": "HIGH",
+        "status": "pending",
+        "blocksItems": ["C2"],
+        "notes": "Emily Noel specifically suggested reaching out to the preservation department on the demo delay question."
+      }
+    ]
+  },
+  "shortTermActions": {
+    "title": "Short-Term Actions (Weeks 2-4)",
+    "items": [
+      {
+        "id": "B1",
+        "action": "Engage preservation-experienced architect",
+        "purpose": "Test buildable envelope with actual lot dimensions and setback formula. Develop concept plans for both Scenario A (14 units) and Scenario B (5-6 units). Confirm whether 14 units + underground garage fit within the envelope.",
+        "owner": "Ariel",
+        "priority": "HIGH",
+        "status": "pending",
+        "blockedBy": ["A1", "A2"],
+        "notes": "Architect should have experience with National Register properties and Brookline permitting. Emily Noel suggested reviewing Section 5.21 'prior to design.'"
+      },
+      {
+        "id": "B2",
+        "action": "Update Amr's financial model with by-law adjustments",
+        "purpose": "Incorporate: (1) Section 4.08 affordable units or payment-in-lieu, (2) parking cost as explicit line item, (3) fix 162 sqft FAR overage, (4) clarify the 1,200 sqft 'second existing unit', (5) model both scenarios side-by-side.",
+        "owner": "Amr / Ariel",
+        "priority": "HIGH",
+        "status": "pending",
+        "blockedBy": ["A3", "A4"],
+        "notes": "Current model shows $7.5M profit but doesn't include IZ adjustment (~$2.2M reduction) or explicit parking costs."
+      },
+      {
+        "id": "B3",
+        "action": "Research Section 5.21 public benefit incentive in detail",
+        "purpose": "Determine if preserving the Greek Revival house qualifies for FAR/height exceptions. If yes, this could unlock additional sellable sqft — transformative for Scenario A which is at max FAR.",
+        "owner": "Ariel / Zoning attorney",
+        "priority": "MEDIUM",
+        "status": "pending",
+        "blockedBy": ["A1"],
+        "notes": "Discuss at Ted Murray meeting first, then follow up with zoning attorney if promising."
+      },
+      {
+        "id": "B4",
+        "action": "Get broker pricing opinion (BPO) for both unit mixes",
+        "purpose": "Beatka can provide a formal BPO for the 5-6 unit luxury plan. Need a second opinion on Amr's $1,500/sqft assumption for 1,000 sqft units. Compare against recent 58 Kent ($1,396/sqft) and Solaire ($1,000-1,333/sqft).",
+        "owner": "Beatka / Ariel",
+        "priority": "MEDIUM",
+        "status": "pending",
+        "notes": "Beatka has the strongest local comp knowledge — she sold 40 Kent and 40 Webster Place nearby."
+      },
+      {
+        "id": "B5",
+        "action": "Check MBTA Communities Act Section 3A overlay map",
+        "purpose": "Determine if 19 Linden is within the overlay boundary. If yes, future density upside beyond M-1.0 limits — particularly valuable for Beatka's plan which only uses 5 of 15 current units.",
+        "owner": "Ariel",
+        "priority": "MEDIUM",
+        "status": "pending",
+        "notes": "Brookline adopted compliance zoning Fall 2023. Maps should be available from Planning Dept."
+      }
+    ]
+  },
+  "preCommitmentActions": {
+    "title": "Pre-Commitment Actions (Weeks 4-8)",
+    "items": [
+      {
+        "id": "C1",
+        "action": "Finalize pro forma for chosen scenario",
+        "purpose": "Lock in all cost and revenue assumptions with by-law adjustments, architect's buildable envelope confirmation, and broker pricing opinion. This becomes the investor presentation pro forma.",
+        "owner": "Amr / Ariel",
+        "priority": "HIGH",
+        "status": "pending",
+        "blockedBy": ["A3", "A4", "B1", "B2", "B4"]
+      },
+      {
+        "id": "C2",
+        "action": "Make Scenario A vs. B decision",
+        "purpose": "Based on: (1) buildable envelope confirmation, (2) IZ rounding/payment-in-lieu terms, (3) BPO for each unit mix, (4) community risk appetite. May also consider a hybrid (e.g., 8-10 units).",
+        "owner": "Ariel / Amr",
+        "priority": "HIGH",
+        "status": "pending",
+        "blockedBy": ["B1", "B2", "B4", "A5"]
+      },
+      {
+        "id": "C3",
+        "action": "Engage Brookline-experienced zoning attorney",
+        "purpose": "Review entitlement pathway for chosen scenario. Confirm Section 5.21 applicability. Prepare for pre-application conference with Planning Board.",
+        "owner": "Ariel",
+        "priority": "MEDIUM",
+        "status": "pending",
+        "blockedBy": ["C2"]
+      },
+      {
+        "id": "C4",
+        "action": "Phase I environmental site assessment",
+        "purpose": "1843 structure likely contains lead paint and possibly asbestos. Required for acquisition diligence and financing.",
+        "owner": "Ariel",
+        "priority": "MEDIUM",
+        "status": "pending"
+      },
+      {
+        "id": "C5",
+        "action": "Title search and deed restriction review",
+        "purpose": "Confirm no easements, restrictions, or encumbrances that affect development potential.",
+        "owner": "Ariel / Attorney",
+        "priority": "MEDIUM",
+        "status": "pending"
+      },
+      {
+        "id": "C6",
+        "action": "Prepare investor presentation",
+        "purpose": "Compile finalized pro forma, by-law analysis, architect concept, and risk matrix into investor-ready materials. Update Lovable site.",
+        "owner": "Ariel",
+        "priority": "MEDIUM",
+        "status": "pending",
+        "blockedBy": ["C1", "C2"]
+      }
+    ]
+  },
+  "keyContacts": {
+    "title": "Key Contacts",
+    "contacts": [
+      {
+        "name": "Ted Murray",
+        "role": "Building Inspector (area inspector for 19 Linden)",
+        "email": "emurray@brooklinema.gov",
+        "context": "Emily Noel will forward your email. He can walk through Sections 4.08, 5.21, 6, Table 5.01. Plan in-person meeting.",
+        "referredBy": "Emily Noel (Building Inspector)"
+      },
+      {
+        "name": "Emily Noel",
+        "role": "Building Inspector",
+        "context": "Initial contact who provided regulatory guidance and the referral to Ted Murray.",
+        "referredBy": "Existing contact"
+      },
+      {
+        "name": "Beatka Zakrzewski",
+        "role": "Real Estate Agent",
+        "context": "Sold 40 Kent and 40 Webster Place (1 block away, both NR-listed). Deep local comp knowledge. Proposed the 5-6 unit luxury strategy.",
+        "referredBy": "Existing contact"
+      },
+      {
+        "name": "Amr",
+        "role": "Financial Modeling Partner",
+        "context": "Built the pro forma spreadsheet. Proposed the 14-unit density strategy. Model needs updating for Section 4.08 IZ adjustment.",
+        "referredBy": "Existing partner"
+      },
+      {
+        "name": "Brookline Preservation Department",
+        "role": "Municipal — demo delay authority",
+        "context": "Confirm whether adaptive reuse avoids the 18-month delay. Discuss the house-split question for Scenario A.",
+        "referredBy": "Emily Noel"
+      },
+      {
+        "name": "Brookline Planning Department",
+        "role": "Municipal — zoning, IZ, Section 3A overlay",
+        "context": "Pre-application conference recommended. Can confirm IZ rounding rules, payment-in-lieu fees, and MBTA overlay map.",
+        "referredBy": "Standard process"
+      }
+    ]
+  },
+  "openQuestions": {
+    "title": "Open Questions (Must-Resolve Before Commitment)",
+    "questions": [
+      {
+        "id": "Q1",
+        "question": "How does Section 4.08 round fractional affordable units? Is 2.1 rounded to 2 or 3?",
+        "impact": "1 additional affordable unit = ~$1.1M revenue difference",
+        "resolveWith": "Ted Murray / Planning Dept",
+        "status": "open"
+      },
+      {
+        "id": "Q2",
+        "question": "What is the current payment-in-lieu fee for Section 4.08?",
+        "impact": "May be more favorable than on-site affordable units, especially for Scenario B",
+        "resolveWith": "Planning Dept / Housing Division",
+        "status": "open"
+      },
+      {
+        "id": "Q3",
+        "question": "What are the lot dimensions (width x depth)?",
+        "impact": "Determines buildable envelope after side setbacks. Blocks architect engagement.",
+        "resolveWith": "Lot survey",
+        "status": "open"
+      },
+      {
+        "id": "Q4",
+        "question": "Does the existing house split (3,000 + 1,200 sqft) trigger the demolition delay?",
+        "impact": "If yes, Scenario A loses the 'no demo delay' advantage (adds ~$660K carry + 18 months)",
+        "resolveWith": "Preservation Department",
+        "status": "open"
+      },
+      {
+        "id": "Q5",
+        "question": "Is underground parking included in Amr's $7M building cost?",
+        "impact": "If not, add $1.05-1.4M to Scenario A costs (reducing profit to ~$3.9-4.2M with IZ)",
+        "resolveWith": "Amr",
+        "status": "open"
+      },
+      {
+        "id": "Q6",
+        "question": "Does Section 5.21 public benefit incentive apply to historic preservation?",
+        "impact": "If yes, could unlock FAR > 1.0 or height > 40ft — additional sellable sqft",
+        "resolveWith": "Ted Murray / Zoning attorney",
+        "status": "open"
+      },
+      {
+        "id": "Q7",
+        "question": "Is 19 Linden within the Transit Overlay Parking District?",
+        "impact": "If yes, parking drops to 1.0 space/unit, saving $350-700K in garage costs",
+        "resolveWith": "Planning Dept / official district map",
+        "status": "open"
+      },
+      {
+        "id": "Q8",
+        "question": "Is 19 Linden within the MBTA Communities Act Section 3A overlay?",
+        "impact": "If yes, future density upside beyond M-1.0 — valuable optionality",
+        "resolveWith": "Planning Dept / Section 3A overlay map",
+        "status": "open"
+      },
+      {
+        "id": "Q9",
+        "question": "What does the $25,000 'rebate for A9' in Amr's spreadsheet refer to?",
+        "impact": "May relate to Section 4.08 or another incentive/fee. Needs clarification.",
+        "resolveWith": "Amr",
+        "status": "open"
+      }
+    ]
+  }
+}

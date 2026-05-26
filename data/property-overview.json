@@ -10,7 +10,13 @@
     "zoning": "M-1.0",
     "zoningDescription": "Multi-family Residence, FAR 1.0",
     "askingPrice": 5950000,
-    "pricePerSqftLot": 336,
+    "targetAcquisitionPrice": 5500000,
+    "pricePerSqftLot": 311,
+    "pricePerSqftLotNote": "At $5.5M negotiated price",
+    "maxUnits": 15,
+    "maxUnitsDensityFormula": "3,000 sqft first unit + 1,000 sqft each additional",
+    "maxGFA": 17698,
+    "maxHeight": "40 ft (4 stories)",
     "currentStructure": {
       "style": "Greek Revival",
       "yearBuilt": 1843,
@@ -28,7 +34,8 @@
       "dateListedNR": "1985-10-17",
       "nrReferenceNumber": "85003284",
       "localHistoricDistrict": false,
-      "lhdProposed": false
+      "lhdProposed": false,
+      "demolitionDelay": "18 months (if demolishing — avoided by keeping the house)"
     },
     "transit": {
       "mbtaStation": "Brookline Village",
@@ -36,8 +43,15 @@
       "walkingDistanceMin": 5,
       "dailyBoardings": 3230,
       "busRoutes": ["39", "66"],
-      "destinations": ["Longwood Medical Area", "Kenmore", "Park Street", "Downtown Boston"]
-    }
+      "destinations": ["Longwood Medical Area", "Kenmore", "Park Street", "Downtown Boston"],
+      "transitOverlayParkingDistrict": "Likely qualifies (within 0.5mi) — confirm with Planning Dept"
+    },
+    "keyByLawSections": [
+      "Section 4.08 — Inclusionary Zoning (15% affordable units, 4+ unit trigger)",
+      "Table 5.01 — Dimensional Requirements (side setback = Length/10 + 10 ft)",
+      "Section 5.21 — Public Benefit Incentive (potential FAR/height bonus)",
+      "Section 6 — Parking (1.0 space/unit in Transit Overlay)"
+    ]
   },
   "neighborhood": {
     "description": "Historic heart of Brookline — home to Town Hall, main library, and a walkable mix of civic, retail, and residential uses",
@@ -47,6 +61,7 @@
     "medianHomePrice": 1150000,
     "medianResalePricePerSqft": 830,
     "yearOverYearAppreciation": "29.3%",
-    "schoolDistrict": "Brookline Public Schools (highly rated)"
+    "schoolDistrict": "Brookline Public Schools (highly rated)",
+    "nearbyNRComps": "40 Kent St and 40 Webster Place (1 block away, both NR-listed) recently sold — buyer pursuing 70+ unit development on combined sites"
   }
 }

@@ -1,243 +1,456 @@
 {
   "page": "investors",
+  "version": "2.0",
+  "lastUpdated": "2026-05-26",
   "headline": "Investment Analysis: 19 Linden St, Brookline Village",
+  "subheadline": "Two viable development paths — grounded in by-law research and real-market data",
   "recommendation": {
-    "overall": "NEGOTIATE",
-    "summary": "Strong site fundamentals undermined by asking price. Viable at $4-4.5M or with density upside via 40B/MBTA overlay. Do not proceed at $5.95M under as-of-right zoning.",
+    "overall": "PROCEED WITH DILIGENCE",
+    "summary": "Both the 14-unit density strategy and the 5-6 unit luxury strategy produce strong returns at a $5.5M acquisition. The deal works — but the pro forma must account for Brookline's inclusionary zoning requirement (Section 4.08), which neither original model captured. Key regulatory questions remain open; resolve before committing capital.",
     "ratings": [
-      { "category": "Location Quality", "rating": "BUY", "score": 9, "note": "Irreplaceable: transit, schools, walkability, scarcity of large lots" },
-      { "category": "Market Demand", "rating": "BUY", "score": 8, "note": "Brookline new construction sells at $950-$1,400/sf; 29% YoY appreciation" },
-      { "category": "Price at Ask ($5.95M)", "rating": "PASS", "score": 3, "note": "At $336/sf of buildable area, margins are negative to break-even" },
-      { "category": "Price at $4-4.5M", "rating": "CONSIDER", "score": 7, "note": "Margins reach 18-22% — workable for experienced developer" },
-      { "category": "Entitlement Risk", "rating": "CONSIDER", "score": 5, "note": "18-month demo delay + community opposition; no LHD veto power" },
-      { "category": "Density Upside (40B)", "rating": "CONSIDER", "score": 6, "note": "Could double units but politically difficult in Brookline; check safe harbor" },
-      { "category": "Regulatory Tailwinds", "rating": "BUY", "score": 7, "note": "MBTA Communities Act forcing upzoning in transit areas — may benefit this parcel" }
+      { "category": "Location Quality", "rating": "BUY", "score": 9, "note": "Irreplaceable: Green Line access, top schools, Longwood Medical proximity, scarcity of large lots" },
+      { "category": "Market Demand", "rating": "BUY", "score": 8, "note": "New construction at $950-$1,400/sf; 29% YoY appreciation; deep institutional buyer pool" },
+      { "category": "Price at $5.5M (Negotiated)", "rating": "CONSIDER", "score": 7, "note": "Both scenarios produce 13-25%+ margins at $5.5M. Workable." },
+      { "category": "Zoning & By-Laws", "rating": "CONSIDER", "score": 6, "note": "Inclusionary zoning (15% affordable), setback formula, and parking requirements are now quantified — all manageable but reduce upside vs. naive models" },
+      { "category": "Entitlement Risk", "rating": "CONSIDER", "score": 7, "note": "Adaptive reuse avoids 18-month demo delay; both scenarios keep existing house; Building Inspector contact established" },
+      { "category": "Historic Preservation", "rating": "POSITIVE", "score": 7, "note": "Keeping the house = no demo delay, community goodwill, potential Historic Tax Credits, and possible Section 5.21 public benefit bonus" },
+      { "category": "Regulatory Tailwinds", "rating": "BUY", "score": 7, "note": "Transit Overlay reduces parking to 1 space/unit; MBTA Communities Act may unlock future upzoning" }
     ]
   },
-  "zoningParameters": {
-    "district": "M-1.0",
+  "zoningAndByLaws": {
+    "sectionTitle": "Zoning & By-Law Constraints",
+    "subtitle": "Critical regulatory factors that shape every scenario",
+    "district": "M-1.0 (Multi-family Residence, FAR 1.0)",
+    "lotSize": 17698,
     "maxFAR": 1.0,
-    "maxGrossBuildableArea": 17698,
-    "maxHeightFt": "35-40 (confirm from Table 5.01)",
-    "maxStories": "3-4",
-    "minLotSize": 5000,
-    "densityFormula": "3,000 sf first unit + 1,000 sf each additional",
-    "maxUnitsbyDensity": 16,
-    "setbacks": {
-      "front": "10-20 ft (confirm)",
-      "side": "7.5-10 ft (confirm)",
-      "rear": "25-30 ft (confirm)"
+    "maxGFA": 17698,
+    "maxHeight": "40 ft (4 stories)",
+    "densityFormula": {
+      "rule": "3,000 sqft lot area for first unit + 1,000 sqft for each additional",
+      "calculation": "3,000 + (N-1) x 1,000 <= 17,698",
+      "maxUnits": 15,
+      "source": "Brookline Zoning By-Law Table 5.01; confirmed by Amr's analysis"
     },
-    "openSpacePerUnit": "Confirm from Table 5.01",
-    "parkingRequirement": "Confirm — typically 1.5-2 spaces/unit in Brookline M districts"
+    "criticalSections": [
+      {
+        "section": "Section 4.08 — Inclusionary / Affordable Housing",
+        "severity": "HIGH",
+        "summary": "15% of units must be Affordable at 80% AMI (for-sale) or 50% AMI (rental). Triggers at 4+ units. Payment-in-lieu alternative exists.",
+        "impactOnAmrPlan": "14 units x 15% = 2.1 -> 2 affordable units. Revenue reduction ~$2.2M (from $23.0M to $20.8M)",
+        "impactOnBeatkaPlan": "5 units x 15% = 0.75 -> 1 affordable unit or payment-in-lieu. Revenue reduction ~$500-800K",
+        "openQuestion": "Confirm rounding rules (2 vs 3 units?) and current payment-in-lieu amount with Planning Dept.",
+        "source": "Brookline Zoning By-Law Section 4.08; Brookline Housing Division"
+      },
+      {
+        "section": "Side Setback Formula",
+        "severity": "MEDIUM",
+        "summary": "Side setback = (Building Length / 10) + 10 feet. Longer buildings require wider side yards.",
+        "examples": [
+          { "buildingLength": 60, "setbackPerSide": 16, "bothSides": 32 },
+          { "buildingLength": 80, "setbackPerSide": 18, "bothSides": 36 },
+          { "buildingLength": 100, "setbackPerSide": 20, "bothSides": 40 },
+          { "buildingLength": 120, "setbackPerSide": 22, "bothSides": 44 }
+        ],
+        "openQuestion": "Need lot survey (width x depth) to determine maximum building width after setbacks",
+        "source": "Emily Noel, Building Inspector"
+      },
+      {
+        "section": "Section 6 — Parking Requirements",
+        "severity": "MEDIUM",
+        "summary": "Standard: 1.4-2.0 spaces/unit. Transit Overlay District (within 0.5mi of Green Line): 1.0 space per 1BR+ unit.",
+        "standardRequirements": {
+          "studio": "1.0 space",
+          "oneBR": "1.4 spaces",
+          "twoBR": "2.0 spaces",
+          "threePlusBR": "2.0 spaces"
+        },
+        "transitOverlay": {
+          "studio": "0.5 spaces",
+          "onePlusBR": "1.0 space",
+          "note": "19 Linden is ~5 min walk from Brookline Village Green Line D station — almost certainly qualifies"
+        },
+        "costEstimate": {
+          "undergroundPerSpace": "$75,000-$100,000",
+          "amrPlan14Units": "$1,050,000-$1,400,000 for ~14 spaces",
+          "beatkaPlan5Units": "$375,000-$500,000 for ~5 spaces"
+        },
+        "openQuestion": "Confirm Transit Overlay boundary includes this parcel. Verify if parking is embedded in Amr's $7M building cost.",
+        "source": "Brookline Zoning By-Law Section 6.02; 2021 Transit Overlay amendment"
+      },
+      {
+        "section": "18-Month Demolition Delay",
+        "severity": "LOW (if keeping house)",
+        "summary": "Applies to National Register properties. But if the existing house is preserved (both scenarios), the delay is likely avoided entirely. Reach out to preservation department to confirm.",
+        "carryingCostIfTriggered": "$660,000 at 8% interest on $5.5M over 18 months",
+        "source": "Brookline Demolition Delay By-Law Article 5.3; Emily Noel"
+      },
+      {
+        "section": "Section 5.21 — Public Benefit Incentive (Upside)",
+        "severity": "UPSIDE",
+        "summary": "Allows exceptions to FAR and height limits in exchange for public benefits (e.g., historic preservation, affordable housing beyond minimum). Could unlock additional sellable sqft above the 17,698 FAR cap.",
+        "openQuestion": "Discuss with Ted Murray whether preservation of the Greek Revival qualifies",
+        "source": "Brookline Zoning By-Law Section 5.21"
+      },
+      {
+        "section": "Rear Setback",
+        "severity": "MEDIUM",
+        "summary": "30 ft minimum rear yard for M-1.0 multifamily. Combined with front setback (10-20 ft), lose 40-50 ft of lot depth.",
+        "source": "Table 5.01"
+      }
+    ]
   },
-  "financialScenarios": [
+  "developmentScenarios": [
     {
-      "name": "Scenario A: As-of-Right (14 units at $5.95M)",
-      "recommendation": "PASS",
-      "landCost": 5950000,
-      "units": 14,
-      "totalGFA": 17698,
-      "sellableSF": 15000,
-      "hardCostsPerSF": 500,
-      "hardCosts": 8850000,
-      "softCostsPct": 0.22,
-      "softCosts": 1947000,
-      "totalDevelopmentCost": 16747000,
-      "avgSalePricePerSF": 1100,
-      "grossRevenue": 16500000,
-      "netProfit": -247000,
-      "margin": "-1.5%",
-      "verdict": "Does not pencil. Negative to break-even margin."
+      "id": "scenario-a",
+      "name": "Scenario A: Maximize Density (Amr's Plan)",
+      "recommendation": "PROCEED",
+      "concept": "Preserve existing Greek Revival house as 2 units (3,000 + 1,200 sqft). Build 12 new ~1,000 sqft units behind/adjacent. Underground garage with elevator access to each unit.",
+      "source": "Amr's financial model + density formula analysis",
+      "unitMix": {
+        "total": 14,
+        "existing": [
+          { "type": "Existing house (primary)", "sqft": 3000, "count": 1 },
+          { "type": "Existing house (secondary)", "sqft": 1200, "count": 1, "openQuestion": "How is the house split into 2 units? Carriage house, basement, or attic apartment? Confirm feasibility and whether it triggers demo delay." }
+        ],
+        "new": [
+          { "type": "New construction units", "sqft": 1000, "count": 12 }
+        ],
+        "commonSpace": 1660,
+        "totalGFA": 17860,
+        "farNote": "17,860 sqft is 162 sqft over the FAR 1.0 cap of 17,698. Must trim ~162 sqft from unit sizes or common space."
+      },
+      "expenses": {
+        "purchase": 5500000,
+        "building": 7048000,
+        "unitFinishes": 1200000,
+        "otherCosts": 644000,
+        "selling": 1152000,
+        "totalCosts": 15544000,
+        "costPerGrossSqft": 498,
+        "parkingNote": "Underground garage for ~14 spaces ($1.05-1.4M) — verify if included in building cost"
+      },
+      "revenue": {
+        "allMarketRate": {
+          "label": "Amr's Base Case (no IZ adjustment)",
+          "existingHousePrimary": { "sqft": 3000, "pricePerSqft": 1200, "revenue": 3600000 },
+          "existingHouseSecondary": { "sqft": 1200, "pricePerSqft": 1200, "revenue": 1440000 },
+          "newUnits": { "count": 12, "sqft": 12000, "pricePerSqft": 1500, "revenue": 18000000 },
+          "totalRevenue": 23040000
+        },
+        "withInclusionaryZoning": {
+          "label": "Adjusted for Section 4.08 (2 affordable units)",
+          "existingHousePrimary": { "sqft": 3000, "pricePerSqft": 1200, "revenue": 3600000 },
+          "existingHouseSecondary": { "sqft": 1200, "pricePerSqft": 1200, "revenue": 1440000 },
+          "marketRateNewUnits": { "count": 10, "sqft": 10000, "pricePerSqft": 1500, "revenue": 15000000 },
+          "affordableNewUnits": { "count": 2, "sqft": 2000, "pricePerSqft": 400, "revenue": 800000 },
+          "totalRevenue": 20840000,
+          "revenueReductionFromIZ": 2200000
+        }
+      },
+      "returns": {
+        "withoutIZ": {
+          "profit": 7496000,
+          "margin": "32.5%",
+          "projectIRR": "48.22%",
+          "annualReturn": "12.06%",
+          "timelineYears": 4
+        },
+        "withIZ": {
+          "profit": 5296000,
+          "margin": "25.4%",
+          "annualReturn": "~9.5% (unlevered)",
+          "timelineYears": 4
+        },
+        "investorReturns": {
+          "label": "Amr's Leveraged Investor Model (pre-IZ adjustment)",
+          "constructionLoan": 14392000,
+          "investorEquity": 3863000,
+          "netCashToInvestors": 3647736,
+          "targetReturn": "94.42%",
+          "annualReturn": "23.61%",
+          "note": "This is a LEVERAGED return to equity investors. The 23.61% annual return reflects ~3.7x leverage on ~$3.9M equity. Unlevered project return is 12.06%. Leverage amplifies both returns and risk — if revenue falls, equity absorbs first loss.",
+          "izAdjustmentNote": "These investor returns do NOT yet account for Section 4.08. Adjusted net cash to investors would be ~$1.5-2M lower."
+        }
+      },
+      "sensitivityAnalysis": {
+        "title": "Sensitivity: New Unit $/sqft vs. Profit (with IZ adjustment, 10 market-rate new units)",
+        "table": [
+          { "newUnitPricePerSqft": 1200, "newUnitRevenue": 12000000, "totalRevenue": 17840000, "profit": 2296000, "margin": "12.9%" },
+          { "newUnitPricePerSqft": 1350, "newUnitRevenue": 13500000, "totalRevenue": 19340000, "profit": 3796000, "margin": "19.6%" },
+          { "newUnitPricePerSqft": 1500, "newUnitRevenue": 15000000, "totalRevenue": 20840000, "profit": 5296000, "margin": "25.4%" },
+          { "newUnitPricePerSqft": 1650, "newUnitRevenue": 16500000, "totalRevenue": 22340000, "profit": 6796000, "margin": "30.4%" }
+        ],
+        "interpretation": "The deal works at $1,200/sqft or higher, even with inclusionary zoning. At $1,500/sqft (Amr's target), margin is 25.4%. The $1,200 floor is supported by comps (45 Bartlett at $1,191/sqft)."
+      },
+      "acquisitionSensitivity": {
+        "title": "Sensitivity: Purchase Price vs. Profit (at $1,500/sqft, with IZ adjustment)",
+        "table": [
+          { "purchasePrice": 4500000, "totalCosts": 14544000, "profit": 6296000, "margin": "30.2%" },
+          { "purchasePrice": 5000000, "totalCosts": 15044000, "profit": 5796000, "margin": "27.8%" },
+          { "purchasePrice": 5500000, "totalCosts": 15544000, "profit": 5296000, "margin": "25.4%" },
+          { "purchasePrice": 5950000, "totalCosts": 15994000, "profit": 4846000, "margin": "23.3%" }
+        ],
+        "interpretation": "Even at the full $5.95M asking price, Amr's plan generates ~$4.8M profit if $1,500/sqft holds. The deal is less price-sensitive than the v1 model suggested — the small-unit premium strategy changes the calculus."
+      },
+      "pros": [
+        "Highest total revenue ($20.8M+ after IZ)",
+        "Maximizes density within by-law limits",
+        "Diversified buyer risk across 14 units",
+        "Small units command higher $/sqft — validated by comps",
+        "Underground garage with elevator adds luxury feel"
+      ],
+      "cons": [
+        "More complex construction and sales process",
+        "14 parking spaces vs 5 — larger underground garage",
+        "2 affordable units reduce blended revenue",
+        "FAR is at absolute maximum — no margin for error",
+        "Open question on feasibility of splitting existing house into 2 units",
+        "Higher community scrutiny from 14-unit density"
+      ]
     },
     {
-      "name": "Scenario B: As-of-Right (14 units at $4.5M acquisition)",
-      "recommendation": "CONSIDER",
-      "landCost": 4500000,
-      "units": 14,
-      "totalGFA": 17698,
-      "sellableSF": 15000,
-      "hardCostsPerSF": 500,
-      "hardCosts": 8850000,
-      "softCostsPct": 0.22,
-      "softCosts": 1947000,
-      "totalDevelopmentCost": 15297000,
-      "avgSalePricePerSF": 1100,
-      "grossRevenue": 16500000,
-      "netProfit": 1203000,
-      "margin": "7.9%",
-      "verdict": "Marginal. Acceptable if sale prices hit $1,200/sf."
-    },
-    {
-      "name": "Scenario C: Luxury Adaptive Reuse (14 units at $4.5M)",
-      "recommendation": "CONSIDER",
-      "landCost": 4500000,
-      "units": 14,
-      "totalGFA": 17698,
-      "sellableSF": 14500,
-      "hardCostsPerSF": 575,
-      "hardCosts": 10176500,
-      "softCostsPct": 0.25,
-      "softCosts": 2544125,
-      "totalDevelopmentCost": 17220625,
-      "avgSalePricePerSF": 1300,
-      "grossRevenue": 18850000,
-      "netProfit": 1629375,
-      "margin": "9.5%",
-      "verdict": "Workable if premium pricing holds. Historic character adds marketing value but raises construction costs."
-    },
-    {
-      "name": "Scenario D: Chapter 40B (28 units at $5.95M)",
-      "recommendation": "CONSIDER",
-      "landCost": 5950000,
-      "units": 28,
-      "affordableUnits": 7,
-      "marketRateUnits": 21,
-      "totalGFA": 30000,
-      "sellableSF": 25500,
-      "hardCostsPerSF": 500,
-      "hardCosts": 15000000,
-      "softCostsPct": 0.22,
-      "softCosts": 3300000,
-      "totalDevelopmentCost": 24250000,
-      "avgSalePricePerSF": 1100,
-      "affordableSalePricePerSF": 550,
-      "grossRevenue": 27225000,
-      "netProfit": 2975000,
-      "margin": "12.3%",
-      "verdict": "Best margin scenario. Requires comprehensive permit, political navigation, and 2+ year entitlement timeline. Verify Brookline 40B safe harbor status."
-    },
-    {
-      "name": "Scenario E: 40B (28 units at $4.5M acquisition)",
-      "recommendation": "BUY",
-      "landCost": 4500000,
-      "units": 28,
-      "affordableUnits": 7,
-      "marketRateUnits": 21,
-      "totalGFA": 30000,
-      "sellableSF": 25500,
-      "hardCostsPerSF": 500,
-      "hardCosts": 15000000,
-      "softCostsPct": 0.22,
-      "softCosts": 3300000,
-      "totalDevelopmentCost": 22800000,
-      "avgSalePricePerSF": 1100,
-      "affordableSalePricePerSF": 550,
-      "grossRevenue": 27225000,
-      "netProfit": 4425000,
-      "margin": "19.4%",
-      "verdict": "Strong deal. Meets typical developer return thresholds. Requires 40B permit and negotiated acquisition."
+      "id": "scenario-b",
+      "name": "Scenario B: Luxury Large Units (Beatka's Plan)",
+      "recommendation": "PROCEED",
+      "concept": "Preserve existing house as a single-family attached home. Add a townhouse and 3-4 attached flats. Underground garage with elevator. A 'small responsible development' that keeps the neighbors onside.",
+      "source": "Beatka Zakrzewski (agent) — sold 40 Kent and 40 Webster Place, one block away, both National Register listed",
+      "unitMix": {
+        "total": 5,
+        "units": [
+          { "type": "Existing house (flagship residence)", "sqft": 3500, "count": 1 },
+          { "type": "New luxury townhouse/flats", "sqft": 3500, "count": 4 }
+        ],
+        "totalGFA": 17500,
+        "note": "Well under FAR 1.0 cap. Only 5 of 15 possible units used — leaves significant density headroom for future value."
+      },
+      "expenses": {
+        "purchase": 5500000,
+        "estimatedBuildingCosts": 7000000,
+        "estimatedFinishes": 1500000,
+        "estimatedOtherCosts": 600000,
+        "estimatedSelling": 1000000,
+        "estimatedTotalCosts": 15600000,
+        "note": "Estimated — Beatka's plan lacks a detailed pro forma. Building costs may be lower due to simpler construction (fewer units, less common space, smaller garage)."
+      },
+      "revenue": {
+        "allMarketRate": {
+          "label": "Beatka's Estimate (~$20M sell-out)",
+          "flagshipHome": { "sqft": 3500, "pricePerSqft": 1300, "revenue": 4550000 },
+          "fourLuxuryUnits": { "count": 4, "sqft": 14000, "pricePerSqft": 1200, "revenue": 16800000 },
+          "totalRevenue": 21350000
+        },
+        "withInclusionaryZoning": {
+          "label": "Adjusted for Section 4.08 (1 affordable unit or payment-in-lieu)",
+          "note": "15% of 5 = 0.75 units. Likely 1 affordable unit at ~$400K or a payment-in-lieu fee.",
+          "flagshipHome": { "sqft": 3500, "pricePerSqft": 1300, "revenue": 4550000 },
+          "threeLuxuryMarket": { "count": 3, "sqft": 10500, "pricePerSqft": 1200, "revenue": 12600000 },
+          "oneAffordable": { "count": 1, "sqft": 3500, "pricePerSqft": 286, "revenue": 1000000 },
+          "totalRevenue": 18150000,
+          "revenueReductionFromIZ": 3200000,
+          "alternativePaymentInLieu": "If payment-in-lieu is available, total revenue stays ~$20.6M minus the fee. May be more favorable."
+        }
+      },
+      "returns": {
+        "withoutIZ": {
+          "profit": 5750000,
+          "margin": "26.9%",
+          "timelineYears": 3.5,
+          "note": "Faster timeline due to simpler construction"
+        },
+        "withIZ_onSite": {
+          "profit": 2550000,
+          "margin": "14.1%",
+          "timelineYears": 3.5,
+          "note": "IZ hits harder on large units — one $3.5M unit becoming affordable loses more revenue"
+        },
+        "withIZ_paymentInLieu": {
+          "note": "If payment-in-lieu is available, margins stay in the 20-25% range. Confirm fee amount with Planning Dept.",
+          "estimatedProfit": "~$4.5-5.0M",
+          "estimatedMargin": "~22-25%"
+        }
+      },
+      "sensitivityAnalysis": {
+        "title": "Sensitivity: Blended $/sqft vs. Profit (5 units, no IZ — or with payment-in-lieu)",
+        "table": [
+          { "blendedPricePerSqft": 1000, "totalRevenue": 17500000, "profit": 1900000, "margin": "10.9%" },
+          { "blendedPricePerSqft": 1100, "totalRevenue": 19250000, "profit": 3650000, "margin": "19.0%" },
+          { "blendedPricePerSqft": 1200, "totalRevenue": 21000000, "profit": 5400000, "margin": "25.7%" },
+          { "blendedPricePerSqft": 1300, "totalRevenue": 22750000, "profit": 7150000, "margin": "31.4%" }
+        ],
+        "interpretation": "Deal works at $1,100/sqft blended. At $1,200 (Beatka's target), margin is 25.7%. Note: large units historically command lower $/sqft than small units."
+      },
+      "beatkasCompEvidence": {
+        "title": "Agent's Local Comparable Knowledge",
+        "comps": [
+          "Sold 40 Kent St and 40 Webster Place — one block from 19 Linden, both National Register listed, both adjacent sites",
+          "Buyer of those sites is pursuing 70+ units on the 2 sites combined (Green St developments)",
+          "Brookline Village pricing trajectory supports $20M+ sell-out in 3-year timeframe"
+        ],
+        "agentQuote": "I think there's close to a $20M sell out based on today's dollars. It could be higher in 3 years based on the price/sqft trajectory."
+      },
+      "pros": [
+        "Simpler construction and faster timeline (~3.5 vs 4 years)",
+        "Only 5 parking spaces needed — smaller, cheaper garage",
+        "Low community opposition ('small responsible development')",
+        "Fewer IZ units required (1 vs 2), payment-in-lieu may be optimal",
+        "Well under FAR cap — no envelope risk",
+        "Agent has sold comparable NR-listed properties nearby",
+        "Keeping house as single unit avoids any demo delay questions"
+      ],
+      "cons": [
+        "~$2-3M less total revenue than Scenario A (before IZ)",
+        "Fewer units = less buyer diversification",
+        "Large units sell at lower $/sqft — need $1,100+ blended to work",
+        "Does not maximize the lot's development potential (5 of 15 possible units)",
+        "If on-site IZ is required (not payment-in-lieu), one $3.5M affordable unit is a big hit",
+        "Less detailed pro forma — needs architect/cost estimator to firm up"
+      ]
     }
   ],
-  "carryingCosts": {
-    "note": "18-month demolition delay adds significant carrying costs before construction can begin",
-    "estimatedAnnualCarry": 475000,
-    "assumptions": "8% interest on $5.95M acquisition loan",
-    "delayCarryCost": 712500,
-    "impact": "Adds ~$712K to total project cost during 18-month demo delay period alone"
+  "scenarioComparison": {
+    "title": "Head-to-Head Comparison",
+    "table": [
+      { "factor": "Total Units", "scenarioA": "14", "scenarioB": "5-6" },
+      { "factor": "Total Revenue (IZ-adjusted)", "scenarioA": "~$20.8M", "scenarioB": "~$18.2-20.6M" },
+      { "factor": "Estimated Profit (IZ-adjusted)", "scenarioA": "~$5.3M", "scenarioB": "~$2.6-5.0M" },
+      { "factor": "Margin (IZ-adjusted)", "scenarioA": "25.4%", "scenarioB": "14-25%" },
+      { "factor": "Investor Annual Return", "scenarioA": "23.6% (levered, pre-IZ)", "scenarioB": "TBD — needs financing model" },
+      { "factor": "Timeline", "scenarioA": "4 years", "scenarioB": "~3.5 years" },
+      { "factor": "Parking Spaces", "scenarioA": "~14 (Transit Overlay)", "scenarioB": "~5" },
+      { "factor": "Affordable Units (Section 4.08)", "scenarioA": "2 units", "scenarioB": "1 unit or payment-in-lieu" },
+      { "factor": "Construction Complexity", "scenarioA": "Higher", "scenarioB": "Lower" },
+      { "factor": "Community Risk", "scenarioA": "Moderate", "scenarioB": "Low" },
+      { "factor": "FAR Usage", "scenarioA": "100% (at cap)", "scenarioB": "~99% (under cap)" },
+      { "factor": "Comp Support for $/sqft", "scenarioA": "Strong (58 Kent at $1,396/sqft)", "scenarioB": "Moderate (larger units = lower $/sqft)" },
+      { "factor": "Demo Delay Risk", "scenarioA": "Low (but open question on house split)", "scenarioB": "Very low" }
+    ]
+  },
+  "combinedSensitivityMatrix": {
+    "title": "Combined Sensitivity: What Breaks the Deal?",
+    "subtitle": "Minimum $/sqft needed to achieve target margin, by scenario and purchase price",
+    "scenarioA_14units": {
+      "label": "Scenario A (14 units, with IZ)",
+      "rows": [
+        { "purchasePrice": 4500000, "breakEvenPsf": 960, "target15PctPsf": 1100, "target25PctPsf": 1380 },
+        { "purchasePrice": 5000000, "breakEvenPsf": 1010, "target15PctPsf": 1150, "target25PctPsf": 1430 },
+        { "purchasePrice": 5500000, "breakEvenPsf": 1060, "target15PctPsf": 1200, "target25PctPsf": 1500 },
+        { "purchasePrice": 5950000, "breakEvenPsf": 1105, "target15PctPsf": 1250, "target25PctPsf": 1540 }
+      ],
+      "note": "At $5.5M purchase, the deal breaks even at ~$1,060/sqft (well below market) and hits 25% margin at ~$1,500/sqft (Amr's target)."
+    },
+    "scenarioB_5units": {
+      "label": "Scenario B (5 units, payment-in-lieu assumed)",
+      "rows": [
+        { "purchasePrice": 4500000, "breakEvenBlendedPsf": 860, "target15PctBlendedPsf": 1010, "target25PctBlendedPsf": 1190 },
+        { "purchasePrice": 5000000, "breakEvenBlendedPsf": 890, "target15PctBlendedPsf": 1040, "target25PctBlendedPsf": 1220 },
+        { "purchasePrice": 5500000, "breakEvenBlendedPsf": 920, "target15PctBlendedPsf": 1070, "target25PctBlendedPsf": 1250 },
+        { "purchasePrice": 5950000, "breakEvenBlendedPsf": 945, "target15PctBlendedPsf": 1100, "target25PctBlendedPsf": 1280 }
+      ],
+      "note": "At $5.5M purchase, the deal breaks even at ~$920/sqft blended (well below even median resale) and hits 25% margin at ~$1,250/sqft."
+    }
   },
   "riskMatrix": [
     {
-      "risk": "Demolition Delay (18 months)",
+      "risk": "Section 4.08 Inclusionary Zoning",
       "probability": "Certain",
       "impact": "High",
-      "mitigation": "Budget $700K+ in carry costs. Use delay period for design, permitting, community engagement.",
+      "mitigation": "Budget for 15% affordable units in all models. Explore payment-in-lieu as potentially more favorable. Confirm rounding rules.",
       "category": "Regulatory"
     },
     {
-      "risk": "Community Opposition",
-      "probability": "Very High",
+      "risk": "Side Setback Constrains Building Envelope",
+      "probability": "Medium-High",
+      "impact": "Medium",
+      "mitigation": "Get lot survey immediately. The Length/10 + 10 formula may limit building width. Architect must verify 14 units + garage fit within envelope.",
+      "category": "Regulatory"
+    },
+    {
+      "risk": "FAR Overage (Scenario A)",
+      "probability": "Certain (162 sqft over)",
+      "impact": "Low",
+      "mitigation": "Trim 162 sqft from unit sizes or common space. Minor adjustment — does not threaten viability.",
+      "category": "Regulatory"
+    },
+    {
+      "risk": "Existing House Split Triggers Demo Delay",
+      "probability": "Low-Medium",
       "impact": "High",
-      "mitigation": "Adaptive reuse strategy reduces opposition. Early community engagement. Preservation Commission consultation.",
+      "mitigation": "Clarify with preservation department whether converting house to 2 units requires exterior changes that trigger 'systematic removal of character-defining elements'. If so, keep as 1 unit (Beatka's approach).",
+      "category": "Regulatory"
+    },
+    {
+      "risk": "Underground Parking Cost Not Fully Budgeted",
+      "probability": "Medium",
+      "impact": "Medium",
+      "mitigation": "Break out parking as explicit line item. At $75-100K/space, 14 spaces = $1.05-1.4M. Confirm with Amr whether this is within the $7M building cost.",
+      "category": "Financial"
+    },
+    {
+      "risk": "$1,500/sqft Pricing Does Not Hold",
+      "probability": "Medium",
+      "impact": "Medium",
+      "mitigation": "Sensitivity shows deal works at $1,200/sqft (12.9% margin). Pre-sales or broker pricing opinion can de-risk before construction commitment.",
+      "category": "Market"
+    },
+    {
+      "risk": "Community Opposition",
+      "probability": "Low (adaptive reuse) to Medium (14 units)",
+      "impact": "Medium",
+      "mitigation": "Both scenarios keep the existing house — strong community signal. Beatka's 5-unit plan has lowest opposition risk. Early engagement with Preservation Commission.",
       "category": "Political"
     },
     {
       "risk": "Construction Cost Overruns",
       "probability": "Medium",
       "impact": "High",
-      "mitigation": "Historic renovation adds 15-25% cost uncertainty. New construction behind existing structure is more predictable.",
+      "mitigation": "Historic rehabilitation adds 15-25% cost uncertainty for existing house. New construction behind is more predictable. Get GC estimates early.",
       "category": "Financial"
     },
     {
-      "risk": "Market Downturn During 3-4 Year Project",
-      "probability": "Medium",
-      "impact": "High",
-      "mitigation": "Brookline has historically resilient pricing. Pre-sales can de-risk. Proximity to medical employment centers provides demand floor.",
-      "category": "Market"
-    },
-    {
-      "risk": "40B Safe Harbor Blocks Comprehensive Permit",
-      "probability": "Medium",
-      "impact": "High",
-      "mitigation": "Verify current safe harbor status. If blocked, pursue as-of-right with price negotiation or MBTA overlay density.",
-      "category": "Regulatory"
-    },
-    {
-      "risk": "Parking Requirements Reduce Buildable Units",
+      "risk": "Interest Rate / Financing Risk",
       "probability": "Medium",
       "impact": "Medium",
-      "mitigation": "Confirm parking ratio. Underground parking adds $50-75K/space. Transit proximity may support reduced parking special permit.",
-      "category": "Regulatory"
-    },
-    {
-      "risk": "Environmental Issues (Lead, Asbestos, Soil)",
-      "probability": "Medium",
-      "impact": "Medium",
-      "mitigation": "Phase I/II environmental assessment during due diligence. 1843 structure likely contains lead paint and possibly asbestos.",
-      "category": "Environmental"
-    },
-    {
-      "risk": "Interest Rate Increase During Hold Period",
-      "probability": "Medium",
-      "impact": "Medium",
-      "mitigation": "Lock construction financing early. Minimize pre-construction hold period.",
+      "mitigation": "Amr's investor model assumes ~$14.4M construction loan. Lock financing terms early. 23.61% investor return is leveraged — rate increases compress equity returns disproportionately.",
       "category": "Financial"
     }
   ],
   "opportunities": [
     {
-      "opportunity": "MBTA Communities Act Upzoning",
-      "probability": "Medium-High",
-      "impact": "Very High",
-      "detail": "Brookline is a rapid transit community required to zone for 6,990 multifamily units. If this parcel falls within the Section 3A overlay, density may increase beyond M-1.0 limits.",
-      "category": "Regulatory"
+      "opportunity": "Section 5.21 Public Benefit Incentive",
+      "probability": "Medium",
+      "impact": "High",
+      "detail": "Historic preservation may qualify as a 'public benefit' allowing exceptions to FAR and height limits. Could unlock additional sellable sqft above the 17,698 cap — transformative for Scenario A which is at max FAR."
+    },
+    {
+      "opportunity": "Transit Overlay Parking Reduction",
+      "probability": "High",
+      "impact": "Medium",
+      "detail": "Reduces parking from 1.4-2.0 to 1.0 space per unit. Saves $350K-700K in garage construction costs for Scenario A. Nearly certain to apply given proximity to Green Line."
     },
     {
       "opportunity": "Historic Tax Credits",
-      "probability": "High",
+      "probability": "High (if preserving house)",
       "impact": "Medium",
-      "detail": "Federal Historic Tax Credit (20% of qualified rehabilitation costs) available for income-producing properties on the National Register. Massachusetts also offers a state HTC.",
-      "category": "Financial"
+      "detail": "Federal HTC: 20% of qualified rehabilitation costs. Massachusetts HTC: additional state credit. Applies to income-producing use of National Register buildings. Both scenarios qualify."
     },
     {
-      "opportunity": "Scarcity Premium",
-      "probability": "High",
-      "impact": "Medium",
-      "detail": "Large lots in Brookline Village are extremely rare. New construction with historic character commands top-of-market pricing.",
-      "category": "Market"
+      "opportunity": "MBTA Communities Act Future Upzoning",
+      "probability": "Medium-High",
+      "impact": "Very High",
+      "detail": "Brookline must zone for 6,990 multifamily units. If this parcel falls in the Section 3A overlay, future density may exceed M-1.0 limits — particularly valuable for Beatka's plan which uses only 5 of 15 current as-of-right units."
     },
     {
-      "opportunity": "Medical / Institutional Demand",
+      "opportunity": "Brookline Village Appreciation Trajectory",
       "probability": "High",
       "impact": "Medium",
-      "detail": "Proximity to Longwood Medical Area (Harvard Medical, Dana-Farber, Brigham & Women's, Boston Children's) creates deep, recession-resistant buyer pool.",
-      "category": "Market"
+      "detail": "29.3% YoY appreciation. Both Beatka and Amr expect pricing to be higher at project completion (3-4 years) than today. Current comps may understate exit pricing."
     }
   ],
-  "dueDiligenceChecklist": [
-    { "item": "Confirm exact height limit (35 vs 40 ft) from Table 5.01", "status": "pending", "priority": "high" },
-    { "item": "Confirm exact setbacks from Table 5.01", "status": "pending", "priority": "high" },
-    { "item": "Confirm parking requirements for M-1.0", "status": "pending", "priority": "high" },
-    { "item": "Check if parcel is within MBTA Communities Act Section 3A overlay", "status": "pending", "priority": "high" },
-    { "item": "Verify Brookline Chapter 40B safe harbor status", "status": "pending", "priority": "high" },
-    { "item": "Order title search", "status": "pending", "priority": "high" },
-    { "item": "Phase I environmental site assessment", "status": "pending", "priority": "high" },
-    { "item": "Survey / confirm lot geometry and actual buildable envelope", "status": "pending", "priority": "high" },
-    { "item": "Meet with Brookline Planning Department (pre-application conference)", "status": "pending", "priority": "medium" },
-    { "item": "Consult Brookline Preservation Commission on adaptive reuse approach", "status": "pending", "priority": "medium" },
-    { "item": "Review comparable recent Brookline Board of Appeals decisions in M districts", "status": "pending", "priority": "medium" },
-    { "item": "Confirm open space and usable open space per unit requirements", "status": "pending", "priority": "medium" },
-    { "item": "Research deed restrictions or easements on parcel", "status": "pending", "priority": "medium" },
-    { "item": "Investigate utility capacity (sewer, water, electrical) for multifamily", "status": "pending", "priority": "low" }
+  "comparableSales": [
+    { "address": "58 Kent St, Brookline", "year": 2025, "size": "1,217 sf", "beds": 2, "baths": 2, "price": 1699900, "pricePerSqft": 1396, "relevance": "Best comp for Scenario A small units — similar size, new construction, 1 block away" },
+    { "address": "45 Bartlett Crescent, Brookline", "year": 2026, "size": "1,595 sf", "beds": 3, "baths": 2, "price": 1900000, "pricePerSqft": 1191, "relevance": "Mid-size new construction comp" },
+    { "address": "57-59 Highland Rd, Brookline", "year": 2025, "size": "1,835 sf", "beds": 4, "baths": 3, "price": 1750000, "pricePerSqft": 953, "relevance": "Larger unit — supports lower $/sqft for bigger product" },
+    { "address": "Solaire Fisher Hill, Brookline", "year": 2025, "size": "3,000-4,000 sf", "beds": 4, "baths": 4, "price": 4000000, "pricePerSqft": 1167, "relevance": "Best comp for Scenario B luxury large units — similar size, premium location" },
+    { "address": "40 Kent St + 40 Webster Place", "year": "Recent", "size": "N/A", "beds": "N/A", "baths": "N/A", "price": "N/A", "pricePerSqft": "N/A", "relevance": "Sold by Beatka, 1 block from 19 Linden, both National Register. Buyer pursuing 70+ units on combined sites. Proves NR listing does not block development." }
   ]
 }
