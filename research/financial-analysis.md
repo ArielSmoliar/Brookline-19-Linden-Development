@@ -1,3 +1,5 @@
+> **SUPERSEDED (v1)** — This was the initial analysis before Amr's financial model, Beatka's agent input, and the by-law deep dive. Scenarios D and E (Chapter 40B) are no longer under consideration — both Amr and Beatka independently recommend against 40B. See `refined-analysis-v2.md` for the current model and `data/investors-page.json` for the updated investor data.
+
 # Financial Analysis: 19 Linden St Development
 
 ## Land Economics

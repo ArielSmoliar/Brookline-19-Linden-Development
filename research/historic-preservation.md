@@ -1,3 +1,5 @@
+> **v1 — Still largely accurate.** The core preservation constraints haven't changed. One addition from v2: splitting the existing house into 2 units (Amr's plan) may trigger the demolition delay under the "systematic removal of character-defining elements" clause — this is an open question for the Preservation Department. See `refined-analysis-v2.md`.
+
 # Historic Preservation Constraints: 19 Linden St
 
 ## National Register of Historic Places

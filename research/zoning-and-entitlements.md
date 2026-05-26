@@ -1,3 +1,5 @@
+> **PARTIALLY SUPERSEDED (v1)** — The zoning district basics (M-1.0, density formula, FAR) are still accurate, but the entitlement pathways section is outdated. Path 3 (Chapter 40B) is no longer under consideration. Key by-law sections (4.08, 5.21, 6) and the side setback formula were not covered here — see `refined-analysis-v2.md` for the full by-law analysis.
+
 # Zoning & Entitlements: 19 Linden St, Brookline Village
 
 ## Zoning District: M-1.0

@@ -1,3 +1,5 @@
+> **v1 — Still accurate.** Added in v2: Beatka Zakrzewski sold 40 Kent and 40 Webster Place (1 block away, both NR-listed). That buyer is pursuing 70+ units on the combined sites — confirming market appetite for NR-listed development in this area.
+
 # Neighborhood Context: Brookline Village
 
 ## Overview

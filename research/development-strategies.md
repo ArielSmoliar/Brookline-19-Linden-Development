@@ -1,3 +1,5 @@
+> **SUPERSEDED (v1)** — This was the initial strategy assessment. Strategy 3 (Chapter 40B) is no longer under consideration — both Amr and Beatka independently recommend against it. Strategy 4 (Land Bank) remains speculative background. The current two active scenarios are in `refined-analysis-v2.md` and `data/investors-page.json`.
+
 # Development Strategies: 19 Linden St
 
 ## Strategy 1: Adaptive Reuse + New Construction (Recommended)
